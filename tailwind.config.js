@@ -1,3 +1,4 @@
+const plugin = require('tailwindcss/plugin')
 module.exports = {
   content: [
     './app/views/**/*.html.erb',
@@ -16,5 +17,11 @@ module.exports = {
         200: '#888883',
       }
     }
-  }
+  },
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/container-queries'),
+  ]
 }
