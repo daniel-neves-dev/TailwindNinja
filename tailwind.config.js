@@ -6,6 +6,9 @@ module.exports = {
     './app/javascript/**/*.js'
   ],
   theme: {
+    fontFamily: {
+      body:['Nunito']
+    },
     colors: {
       primary: '#FF6363',
       secondary: {
