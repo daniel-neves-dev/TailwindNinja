@@ -1,28 +1,35 @@
+<%= render 'navbar' %>
+
+<main class="container px-4">
+  <div>
+    <p>Log in</p>
+    <p>Sign up</p>
+  </div>
+</main>
+
+<header class="container px-4">
+  <h2>Recipes</h2>
+  <h3>For Ninjas</h3>
+</header>
+
 <div class="container px-4">
-  <h1>Food ninja</h1>
-
-  <ul>
-    <li>
-      <span>Home</span>
-    </li>
-    <li>
-      <span>About</span>
-    </li>
-    <li>
-      <span>Contact</span>
-    </li>
-  </ul>
-
-  <main>
+  <h4>Latest Recipes</h4>
+  <div>
+  <!-- CARDS -->
     <div>
-      <p>Log in</p>
-      <p>Sign up</p>
+      <%= image_tag '' %>
+      <div>
+        <span>5 Bean Chilli Stew</span>
+        <span>Recipe by Mario</span>
+      </div>
     </div>
-  </main>
+  </div>
 
-  <header>
-    <h2>Recipes</h2>
-    <h3>For ninjas</h3>
-  </header>
-
+  <h4>Most Popular</h4>
+  <div>
+    <!-- CARDS -->
+  </div>
+  <div>
+    <div>Load More</div>
+  </div>
 </div>
