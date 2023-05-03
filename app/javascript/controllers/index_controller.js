@@ -10,7 +10,4 @@ burger.addEventListener('click',()=>{
     menu.classList.add('hidden');
   }
 })
-export default class extends Controller {
-  connect() {
-  }
-}
+
