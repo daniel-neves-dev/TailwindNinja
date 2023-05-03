@@ -4,13 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn{
-    @apply rounded-full py-2 px-3 uppercase text-xs font-bold  cursor-pointer tracking-wider;
+@layer base {
+    .btn{
+        @apply rounded-full py-2 px-3 uppercase text-xs font-bold  cursor-pointer tracking-wider;
+    }
+
+    .budge{
+        @apply bg-secondary-100 text-secondary-200 text-xs p-2 font-bold uppercase rounded-full top-0 ml-2 mt-2 absolute;
+    }
 }
 
-.budge{
-    @apply bg-secondary-100 text-secondary-200 text-xs p-2 font-bold uppercase rounded-full top-0 ml-2 mt-2 absolute;
-}
 
 
 
